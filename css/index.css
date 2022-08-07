@@ -411,6 +411,49 @@ footer {
 
 
 
+
+
+
+@media screen and  (min-width: 1024px) {
+    header .nav-bar{
+        padding: 0 30px;
+    }
+    section{
+        font-size: 0.9em;
+       
+    }   
+   
+    .home  {
+        display: flex;
+        justify-content: center;
+       
+    }
+    .saber-mas {
+        padding: 5rem;
+    }
+    .titulo-home span, h1  {
+        display: flex;
+        justify-content: center;
+    }
+  
+    .formacion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .experiencia-logo{
+        display: flex;
+        justify-content: space-around;
+    }
+    .experiencia-contenido, .projetos-contenido {
+        text-align: center;
+    }
+}
+
+
+
+
+
 /*======= Media queries (max-width: 768px) =======*/
 @media screen and (max-width: 768px) {
     header .nav-bar {
@@ -425,7 +468,10 @@ footer {
         
         
     }
-    
+    .experiencia-logo{
+        display: flex;
+        justify-content: space-around;
+    }
     .saber-mas p {
         line-height: 20px;
         letter-spacing: 4px;
@@ -461,58 +507,8 @@ footer {
         transition: 0.3s ease;
     }
 
-    .navigation.active{
-        visibility: visible;
-        opacity: 1;
-    }
-
-    .navigation .nav-items{
-        position: relative;
-        background: #fff;
-        width: 400px;
-        max-width: 400px;
-        display: grid;
-        place-content: center;
-        margin: 20px;
-        padding: 40px;
-        border-radius: 20px;
-        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.8);
-        transform: translateY(-200px);
-        transition: 0.3s ease;
-    }
-
-    .navigation.active .nav-items{
-        transform: translateY(0);
-    }
-
-    .navigation .nav-items a{
-        color: #222;
-        font-size: 1em;
-        margin: 15px 50px;
-    }
-
-    .navigation .nav-items a i{
-        display: inline-block;
-        font-size: 1.2em;
-        margin-right: 5px;
-    }
-
-    .nav-close-btn{
-        display: block;
-        color: #222;
-        position: absolute;
-        top: 0;
-        right: 0;
-        font-size: 1.3em;
-        margin: 10px;
-        cursor: pointer;
-    }
-
-  
-}
-
-
-@media screen and  (max-width: 1024px) {
+    
+   @media screen and  (max-width:1203px) {
     header .nav-bar{
         padding: 0 30px;
     }
@@ -520,20 +516,11 @@ footer {
         font-size: 0.9em;
        
     }   
-    .home{
-        position: relative;
-        min-height: 70vh;
-        background: url(background.jpg) no-repeat;
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: #fff;
-    }
+  
     .titulo-home {
         padding: 1em 1em;
+       
+        
     }
     .formacion{
         display: flex;
@@ -548,10 +535,18 @@ footer {
         text-align: center;
     }
 }
-@media (max-width: 600px) and (max-width: 1030px) {
+
+  
+}
+@media (max-width: 600px)  {
     .experiencia-logo{
         display: block;
         justify-content: space-around;
     }
+    .titulo-home h1 {
+        margin: 5px;
+    }
+    .titulo-home span {
+        color: #199fff;
+    }
 }
-
