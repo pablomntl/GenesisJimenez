@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="style.css" />  -->
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
@@ -21,7 +21,9 @@
             <i class="uil uil-times nav-close-btn"></i>
             <a href="#"><i class="uil uil-home"></i> Home</a>
             <a href="#formacion"><i class="uil uil-compass"></i> Formación</a>
-            <a href="#"><i class="uil uil-info-circle"></i> Experiencia</a>
+            <a href="#experiencia"
+              ><i class="uil uil-info-circle"></i> Experiencia</a
+            >
             <a href="#"><i class="uil uil-document-layout-left"></i> Blog</a>
             <a href="#"><i class="uil uil-envelope"></i> projetos</a>
           </div>
@@ -34,11 +36,11 @@
     </header>
 
     <section class="home">
-      <div class="titulo-home">
+      <div class="home-title">
         <span>Ola, Sou</span>
         <h1>Genesis</h1>
       </div>
-      <div class="saber-mas">
+      <div class="more-info">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ratione.
         </p>
@@ -51,13 +53,14 @@
           numquam. Voluptates
         </p>
       </div>
-      <button class="btn-home">Saber más</button>
+      <button class="btn-home knowMore">Saber más</button>
+      
     </section>
 
     <section class="content">
-      <div class="formacion">
-        <div class="formacion-contenido">
-          <h2 id="formacion">Formacion</h2>
+      <div class="formation">
+        <div id="formacion" class="content-information">
+          <h2>Formação</h2>
           <ul>
             <li>Curso fronted developer- instituto de tecnología</li>
             <li>Backend de dsj dsaj dsajdsa</li>
@@ -66,107 +69,120 @@
           </ul>
         </div>
       </div>
+    </section>
+    <!--experiencia-->
+    <section>
+      <div class="experience" id="experience">
+        <div class="content-experience">
+          <h2>Experiência</h2>
+          <div class="experience-logo">
+            <div class="logos">
+              <img src="tejidos.png" alt="tejidos" width="100" height="100" />
+            </div>
+            <div class="logos">
+              <img
+                src="Screenshot_20220731-170418-removebg-preview.png"
+                alt="cartoes"
+              />
+            </div>
+            <div class="logos">
+              <img
+                class="more"
+                src="adam_norwester__1_-removebg-preview.png"
+                alt="mas"
+                class="ampliar"
+              />
+            </div>
 
-      <!--experiencia-->
+            <div class="logos">
+              <img
+                class="more"
+                src="Captura_de_pantalla__1_-removebg-preview.png"
+                alt="clariant"
+              />
+            </div>
+
+            <div class="logos">
+              <img
+                class="more"
+                src="ribatex-removebg-preview.png"
+                alt="ribatex"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+    <!--section-projects-->
     <section>
-        <div class="experiencia">
-            <div class="experiencia-contenido">
-              <h2>Experiencia</h2>
-              <div class="experiencia-logo">
-                <div class="logos">
-                  <img
-                    src="tejidos.png"
-                    alt="tejidos"
-                    width="100"
-                    height="100"
-                  />
-                </div>
-                <div class="logos">
-                  <img src="Screenshot_20220731-170418-removebg-preview.png" alt="cartoes" />
-                </div>
-                <div class="logos">
-                  <img
-                    class="more"
-                    src="adam_norwester__1_-removebg-preview.png"
-                    alt="mas"
-                    class="ampliar"
-                  />
-                </div>
-      
-                <div class="logos">
-                  <img
-                    class="more"
-                    src="Captura_de_pantalla__1_-removebg-preview.png"
-                    alt="clariant"
-                  />
-                </div>
-      
-                <div class="logos">
-                  <img class="more" src="ribatex-removebg-preview.png" alt="ribatex" />
-                </div>
-              </div>
+      <div class="projetos-contenido">
+        <h2>Projetos</h2>
+      </div>
+      <div class="content-projects">
+        <div class="card">
+          <div class="content">
+            <div class="imgBx">
+              <img src="file_type_html_icon_130541 (1).png" />
+            </div>
+            <div class="contentBx">
+              <h3>Projeto<br /><span>HTML</span></h3>
             </div>
           </div>
+          <ul class="sci">
+            <li>
+              <a href="/html/projectOne.html">rer</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="imgBx">
+              <img src="file_type_css_icon_130661 (1).png" />
+            </div>
+            <div class="contentBx">
+              <h3>Projeto<br /><span>CSS3</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li>
+              <a href="">hsdadas</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="imgBx">
+              <img src="file_type_js_official_icon_130509 (1).png" />
+            </div>
+            <div class="contentBx">
+              <h3>Projeto<br /><span>Javacript</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li>
+              <a href="">bsadsadas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
-    <section>
-        <div class="projetos-contenido">
-            <h2>Projetos</h2>
-          </div>
-          <div class="contenedor-projetos">
-            <div class="card">
-              <div class="content">
-                <div class="imgBx">
-                  <img src="file_type_html_icon_130541 (1).png" />
-                </div>
-                <div class="contentBx">
-                  <h3>Projeto<br /><span>HTML</span></h3>
-                </div>
-              </div>
-              <ul class="sci">
-                <li>
-                  <a href="">rer</a>
-                </li>
-              </ul>
-            </div>
-            <div class="card">
-              <div class="content">
-                <div class="imgBx">
-                  <img src="file_type_css_icon_130661 (1).png" />
-                </div>
-                <div class="contentBx">
-                  <h3>Projeto<br /><span>CSS3</span></h3>
-                </div>
-              </div>
-              <ul class="sci">
-                <li>
-                  <a href="">hsdadas</a>
-                </li>
-              </ul>
-            </div>
-            <div class="card">
-              <div class="content">
-                <div class="imgBx">
-                  <img src="file_type_js_official_icon_130509 (1).png" />
-                </div>
-                <div class="contentBx">
-                  <h3>Projeto<br /><span>Javacript</span></h3>
-                </div>
-              </div>
-              <ul class="sci">
-                <li>
-                  <a href="">bsadsadas</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-    </section>
+    <!--Footer-->
     <footer>
       <div class="contacto">
         <div class="contato-content">
           <h3>Contato</h3>
         </div>
+        <div class="footer-list">
+          <div class="social-footer">
+            <i class="uil uil-facebook"></i>
+            <i class="uil uil-linkedin"></i>
+            <i class="uil uil-instagram-alt"></i>
+          </div>
+          
+          <div class="list-service"></div>
+        </div>
       </div>
+      <!--Formulario-->
       <div class="formulario">
         <div class="content-formulario">
           <form action="">
@@ -182,7 +198,13 @@
             <textarea name="" id="" cols="30" rows="10"></textarea>
             <input type="submit" value="Submit" />
           </form>
+          
         </div>
+      </div>
+      <div class="list-service">
+        <a href="">Help</a>
+        <a href="">Privacy</a>
+        <a href="">Legacy</a>
       </div>
     </footer>
     <script>
@@ -195,7 +217,7 @@
         const height =
           document.documentElement.scrollHeight -
           document.documentElement.clientHeight;
-        const scrollValue = (pageScroll / height) * 10;
+        const scrollValue = (pageScroll / height) * 100;
 
         indicatorBar.style.width = scrollValue + "%";
       });
@@ -211,6 +233,13 @@
 
       closeBtn.addEventListener("click", () => {
         navigation.classList.remove("active");
+      });
+
+      const $contenidoMas = document.querySelector(".contenidoMas");
+      const $botonPrueba = document.querySelector(".btn-home");
+      $botonPrueba.addEventListener("click", () => {
+        $contenidoMas.classList.add("know-more");
+        $contenidoMas.innerHTML = `Bienvenidos esta es mi pagina`;
       });
     </script>
   </body>
